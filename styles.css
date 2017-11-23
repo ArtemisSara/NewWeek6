@@ -12,18 +12,37 @@ header {
 section {
   text-align: center;
 }
-
-
-img {
-  height: 500px;
-  width: 400px;
+ 
+#img1 {
+  height: 150px;
+  width: 230px;
+  display: block;
+  margin: 0 auto;
 }
 
+img {
+  height: 100px;
+  
+}
+
+nav {
+  text-align: center;
+  padding: 25px;
+}
+
+ul{ 
+  list-style-type:none;
+  display: inline-block;
+  *display: inline;
+}
+
+
 li {
-    float:left;
+    display: inline;
+    float: inherit;
     border-radius: 10px;
     background-repeat: repeat;
-    font-family: 
+    padding: 10px;
 }
 
 li a {
@@ -34,18 +53,18 @@ li a {
     text-decoration: none;
 }
 
+}
+
 li a:hover:not(.active) {
-    border-radius: 10px;   
+    border-radius: 1px;   
+    transition: 
 }
 
-.active {
-  color: ;
-  border-radius: 10px;
+span {
+  text-align: center;
+  text-decoration: line-through;
 }
 
-p {
-  text-align: left;
-}
 
 footer {
   text-align: center; 
