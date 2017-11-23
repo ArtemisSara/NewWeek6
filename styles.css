@@ -8,3 +8,59 @@ header {
   text-align: center;
   float: inherit;
 }
+
+section {
+  text-align: center;
+}
+
+
+img {
+  height: 500px;
+  width: 400px;
+}
+
+li {
+    float:left;
+    border-radius: 10px;
+    background-repeat: repeat;
+    font-family: 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    border-radius: 10px;   
+}
+
+.active {
+  color: ;
+  border-radius: 10px;
+}
+
+p {
+  text-align: left;
+}
+
+footer {
+  text-align: center; 
+  color:black;
+  padding: 25px;
+  background: lightgreen;
+  border-radius: 25px;
+  
+}
+
+.fa:hover {
+  color: aqua;
+}
+i {
+  color:deepskyblue;
+  text-align: center;
+  padding: 5px;
+}
