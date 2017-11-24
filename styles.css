@@ -10,7 +10,7 @@ header {
 }
 
 section {
-  text-align: center;
+  display: inline;
 }
  
 #img1 {
@@ -22,47 +22,33 @@ section {
 
 img {
   height: 100px;
-  
+  align-content: center;
 }
+
 
 nav {
   text-align: center;
   padding: 25px;
 }
 
-ul{ 
-  list-style-type:none;
-  display: inline-block;
-  *display: inline;
-}
-
 
 li {
     display: inline;
-    float: inherit;
-    border-radius: 10px;
+    border-radius: 5px;
     background-repeat: repeat;
-    padding: 10px;
+    padding: 1px;
+    align-content: center;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-}
-
-li a:hover:not(.active) {
-    border-radius: 1px;   
-    transition: 
-}
 
 span {
   text-align: center;
   text-decoration: line-through;
+  align-content: center;
+}
+
+.fa-circle {
+  color: grey;
 }
 
 
@@ -76,10 +62,13 @@ footer {
 }
 
 .fa:hover {
-  color: aqua;
+  color: black;
 }
-i {
-  color:deepskyblue;
-  text-align: center;
-  padding: 5px;
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
